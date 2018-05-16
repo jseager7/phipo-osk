@@ -3,7 +3,7 @@
 
 # phipo
 
-This ontology... YOUR DESCRIPTION HERE
+This is a test repository for the Pathogen-Host Interaction Phenotype Ontology.
 
 ## Versions
 
