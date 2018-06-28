@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.purl.obolibrary.org/obo/phipo.owl#"
-     xml:base="http://www.purl.obolibrary.org/obo/phipo.owl"
+<rdf:RDF xmlns="http://www.purl.obolibrary.org/obo/phipo.owl/"
+     xml:base="http://www.purl.obolibrary.org/obo/phipo.owl/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -81,6 +81,17 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.example.org/ontology/PHI_0000100 -->
+
+    <owl:Class rdf:about="http://www.example.org/ontology/PHI_0000100">
+        <rdfs:subClassOf rdf:resource="http://www.purl.obolibrary.org/obo/phipo.owl/PHIPO_0000016"/>
+        <oboInOwl:created_by>test user</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-06-28T13:49:44Z</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">insensitive to chemical</rdfs:label>
+    </owl:Class>
     
 
 
